@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Number:3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <body id="color">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-muted">Senchola University</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#FAQ">FAQ</a>
+              </li>        
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="c:\Users\Lenovo\Downloads\image1.png" class="d-block w-100" alt="picture">
+            <div class="carousel-caption">
+                <h5>Senchola University</h5>
+                <p>India’s first social learning platform</p>
+                                
+              </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="c:\Users\Lenovo\Downloads\image2.png" class="d-block w-100" alt="picture">
+            <div class="carousel-caption">
+            <h5>Online Community Learning</h5>
+                <p>The space  to explore, understand and improve learning practices.</p>
+            </div>
+                                
+            
+          </div>
+          <div class="carousel-item">
+            <img src="c:\Users\Lenovo\Downloads\image3.png" class="d-block w-100" alt="picture">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+     <section id="about" class="about section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="section-header text-center pb-5">
+                      <h2>About Us</h2>
+                  </div>
+              </div>
+          </div>
+            
+              <div class="row">
+                  <div class="col-lg-4 col-md-12 col-12">
+                      <div class="about-img "> 
+                          <img src="c:\Users\Lenovo\Downloads\senchola.png" alt="aboutimg" class="img-fluid">
+                      </div>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                      <div class="about-text">
+                            <h2>WE with our people providing the valuable <br/> Social Learning Platform</h2>
+                            <p>We help ambitious companies scale through our exclusive global network of freelance talent, outsourcing services, and market insights. Join Senchola to accelerate and scale your business growth.</p>
+                    
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="services section-padding" id="services">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="section-header text-center pb-5">
+                          <h2>Speciallizations</h2>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="row  row-cols-md-3 g-4">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-center pb-2">
+                        <div class="card-body">
+                            
+                            <h3 class="card-title">Front-end Development</h3>
+                            <p class="lead">A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p>
+                            <button class="btn bg-warning text-dark">Enrroll Free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card text-center pb-2 ">
+                      <div class="card-body">
+                        
+                          <h3 class="card-title">Back-end Development</h3>
+                          <p class="lead">A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers which is very hype.</p>
+                          <button class="btn bg-warning text-dark">Enrroll Free</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card  text-center  pb-2">
+                    <div class="card-body">
+                      
+                        <h3 class="card-title">Data Analyst</h3>
+                        <p class="lead">Data analytics is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision making. Data analytics is often confused with data analysis. While these are related terms, they aren't exactly the which is same in this technology.</p>
+                        <button class="btn bg-warning text-dark">Enroll Free</button>
+                    </div>
+                </div>
+            </div>
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card  text-center  pb-2">
+                    <div class="card-body">
+                        
+                        <h3 class="card-title">UI\UX Designer</h3>
+                        <p class="lead">UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
+                        <button class="btn bg-warning text-dark">Enroll Free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center  pb-2">
+                    <div class="card-body">
+                    
+                        <h3 class="card-title">Content Creator</h3>
+                        <p class="lead">A content creator is someone who creates entertaining or educational material to be expressed through any medium or channel.
+
+                            Content creation especially pertains to digital content, since that’s where the majority of content is consumed — and where the money is, if you’re looking to earn revenue through your efforts.</p>
+                        <button class="btn bg-warning text-dark">Enroll Free</button>
+                    </div>
+                </div>
+            </div>
+            
+                  <div class="col-12 col-md-12 col-lg-4">
+                      <div class="card  text-center  pb-2">
+                          <div class="card-body">
+                      
+                              <h3 class="card-title">Wordpress Developer</h3>
+                              <p class="lead">A WordPress developer is a type of web developer. They specialize in building websites with WordPress. They are also full-stack developers, meaning they can develop the front-end and back-end of a website. A WordPress developer may be hired to enhance the WordPress software or build a custom website for a client.</p>
+                              <button class="btn bg-warning text-dark">Enroll Free</button>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+
+      <section class="team section-padding" id="team">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our LEAD</h2>
+                        <p> <br>Organisers For Front-end Development community</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row"   data-bs-toggle="col-12">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="c:\Users\Lenovo\Downloads\director.png" alt="image" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Sathishkumar Selvaraj</h3>
+                        <p class="card-text">  DIRECTOR of SENCHOLA</p>
+  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="c:\Users\Lenovo\Downloads\mentor.png" alt="image" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Ayyapan</h3>
+                        <p class="card-text">Mentor for Front-end Btach-3 Intern</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="c:\Users\Lenovo\Downloads\leader.png" alt="image" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Barathiparaba</h3>
+                        <p class="card-text">Our TEAM LEAD of Front-end Community</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+      </section>
+    <footer id="contact" class="contact section-padding">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Contact us</h2>
+
+                    </div>
+                </div>
+            </div>
+        </body>
+			<div class="row m-0">
+				<div class="col-md-12 p-0 pt-4 pb-4">
+					<form action="#" class="bg-light p-4 m-auto">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="mb-3">
+									<input class="form-control" placeholder="Name" required="" type="text">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="mb-3">
+									<input class="form-control" placeholder="Email" required="" type="email">
+								</div>
+							</div>
+                            <div class="col-md-12">
+								<div class="mb-3">
+									<input class="form-control" placeholder="Mobile number" required="" type="number">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="mb-3">
+									<textarea class="form-control" placeholder="Message" required="" rows="3"></textarea>
+								</div>
+							</div><button class="btn btn-warning btn-lg btn-block mt-3" type="button">SUBMIT</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+    </footer>
+</body>
+</html>
